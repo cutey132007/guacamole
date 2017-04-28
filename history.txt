@@ -1,0 +1,337 @@
+    1  bash Anaconda3-4.3.1-MacOSX-x86_64.sh 
+    2  bash Anaconda3-4.3.1-MacOSX-x86_64.sh 
+    3  bash Anaconda3-4.3.1-MacOSX-x86_64.sh 
+    4  python
+    5  whoami
+    6  pwd
+    7  cd desktop
+    8  pwd
+    9  cd data-shell
+   10  $pwd
+   11  PS1="$ "
+   12  cd data-shell
+   13  cd data-shell
+   14  pwd
+   15  ls
+   16  ls -F
+   17  ls -G
+   18  ls -F -G
+   19  man ls
+   20  pwd
+   21  cd /Users/ashleyanderson/desktop
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd ~ /desktop
+   28  pwd
+   29  cd ~
+   30  pwd
+   31   cd Desktop/
+   32  cd desktop/data-shell
+   33  cd ~
+   34  cd desktop/data-shell/
+   35  cd desktop/data-shell/
+   36  ls -1
+   37  ls -F
+   38  ls -G
+   39  ls -a
+   40  man ls
+   41  man -a
+   42  ls -a
+   43  man ls -a
+   44  ls -l
+   45  ls -l -h
+   46  clear
+   47  cd ~Desktop/data-shell
+   48  cd ~
+   49  cd Desktop/data-shell
+   50  pwd
+   51  ls -FG
+   52  cd thesis
+   53  ls -FG
+   54  mkdir thesis.txt
+   55  ls -FG
+   56  nano draft.txt
+   57  ls -FG
+   58  draft.txt
+   59  cd draft.txt
+   60  cd ~
+   61  pwd
+   62  cd Desktop/data-shell
+   63  pwd
+   64  ls
+   65  cd draft.txt
+   66  ls -l
+   67  rm thesis
+   68  rm thesis.txt
+   69  rmdir thesis.txt
+   70  mkdir Boss
+   71  whereami
+   72  ls
+   73  mkdir draft2.txt
+   74  ls
+   75  rm draft.txt
+   76  ls
+   77  cd Boss
+   78  mkdir princess.txt
+   79  ls
+   80  nano princess.txt
+   81  nano princess.txt/
+   82  cd ..
+   83  ls
+   84  mv draft2.txt Boss
+   85  ls
+   86  cd Boss
+   87  ls
+   88  mv princess.txt prince.txt
+   89  cd Boss
+   90  cd ../..
+   91  pwd
+   92  cd data-shell
+   93  pwd
+   94  ls
+   95  cd Boss
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd molecules
+  100  ls
+  101  ls -l
+  102  ls -h
+  103  ls -lh
+  104  wc cubane.pdb
+  105  wc -l cubane.pdb
+  106  wc -l cubane.pdb methane.pdb ethane.pdb octane.pdb 
+  107  wc -l molecules
+  108  wc -l *
+  109  wc -l *.pdb
+  110  wc -l *t*
+  111  ls
+  112  wc -l *u* *t*
+  113  wc -l
+  114  wc -l *
+  115  ls -a
+  116  wc -l *.pdb > length.txt
+  117  ls
+  118  sort length.txt
+  119  sort -n length.txt
+  120  sort -n -r length.txt
+  121  sorth -n -r length.txt > length.sorted.txt
+  122  sort -n -r length.txt > length.sorted.txt
+  123  cat length.sorted.txt
+  124  head -n 2 length.sorted.txt 
+  125  head -n 2 length.sorted.txt > length.sorted.head.txt
+  126  ls
+  127  tail -n 1 length.sorted.head.txt
+  128  clear
+  129  wc -l *.pdb
+  130  wc -l *.pdb | sort -n -r
+  131  wc -l *.pdb | sort -n -r |head -n -2
+  132  wc -l *.pdb | sort -n -r | head -n 2 
+  133  wc -l *.pdb | sort -n -r | head -n 2 | tail -n 1
+  134  nano biggest_file.sh
+  135  bash biggest_file.sh
+  136  his
+  137  history
+  138  history | tail
+  139  pwd
+  140  /Users/ashleyanderson/anaconda/bin/jupyter_mac.command ; exit;
+  141  /Users/ashleyanderson/anaconda/bin/jupyter_mac.command ; exit;
+  142  whoami
+  143  cd ~
+  144  pwd
+  145  cd ~/Desktop/data
+  146  pwd
+  147  ls
+  148  jupyter notebook
+  149  pwd
+  150  cd ~
+  151  cd /Desktop/data
+  152  pwd
+  153  cd ~/Desktop/data
+  154  pwd
+  155  ls
+  156  nano temperature.py
+  157  nano temperature.py
+  158  nano temperature.py
+  159  nano temperature.py
+  160  nano temperature.py
+  161  nano temperature.py
+  162  jupyter notebook
+  163  cd ~
+  164  cd ~/Desktop
+  165  python swc-installation-test-1.py
+  166  python swc-installation-test-2.py
+  167  clear
+  168  cd 
+  169  pwd
+  170  cd Desktop/data
+  171  pwd
+  172  ls
+  173  head gapminder.csv
+  174  head data
+  175  head gapminder_all.csv
+  176  jupyter notebook
+  177  python jupyter notebook
+  178  cd ~
+  179  cd /Desktop/data
+  180  python jupyter notebook
+  181  jupyter notebook
+  182  cd ~ 
+  183  pwd
+  184  cd /Desktop/data
+  185  cd ~ 
+  186  /Desktop/data
+  187  cd ~/Desktop/data
+  188  jupyter notebook
+  189  pwd
+  190  pwd
+  191  cd ~/desktop/data
+  192  pwd
+  193  ls
+  194  nano temperature.py 
+  195  jupyter notebook
+  196  nano temperature.py 
+  197  cd desktop
+  198  cd ~/Desktop
+  199  pwd
+  200  mkdir guacamole
+  201  pwd
+  202  cd guacamole
+  203  pwd
+  204  ls -a
+  205  git config --global user.name "Ash And"
+  206  git config --global user.email "cutey132007@yahoo.com"
+  207  git config --global color.ui "auto"
+  208  git config --global core.editor "nano -w"
+  209  git init
+  210  ls -a
+  211  ls -a
+  212  git status
+  213  nano instructions.txt
+  214  cat instructions.txt
+  215  git add instructions.txt
+  216  git status
+  217  git commit
+  218  git status
+  219  cd ~/desktop/
+  220  mkdir test
+  221  nano testscript.txt
+  222  git init
+  223  git status
+  224  cd ~/desktop/test
+  225  git init
+  226  git init
+  227  git status
+  228  git add testscript.txt
+  229  mv testscipt.txt test
+  230  cd ~/desktop
+  231  pwd
+  232  mv transcript.txt test
+  233  mv testscript.txt test/
+  234  cd ~desktop/test/
+  235  cd ~/desktop/test
+  236  pwd
+  237  ls
+  238  git init
+  239  git status
+  240  git add testscript.txt
+  241  git commit testscript.txt
+  242  git status
+  243  cd ../guacamole/
+  244  pwd
+  245  ls
+  246  ls -a
+  247  cd ~Desktop/guacamole
+  248  nano instructions.txt
+  249  git status
+  250  git diff
+  251  git add instructions.txt
+  252  git commit instructions.txt
+  253  git status
+  254  nano instructions.txt
+  255  git diff
+  256  git add
+  257  git add instructions.txt
+  258  git commit instructions.txt 
+  259  git commit -m Took out onion and added garlic
+  260  git commit -m "Took out onion and added garlic"
+  261  git log
+  262  get diff 702bf5
+  263   git diff 702bfi
+  264  git diff 702bf5c
+  265  git reset 702bf5cfaec0af146b43981e73b6c5a891a5bc4b
+  266  git checkout HEAD instructions.txt
+  267  git status
+  268  nano ingredients.txt
+  269  ls
+  270  git status
+  271  git add ingredients.txt
+  272  git commit -m "Add a shopping list"
+  273  nano instructions.txt
+  274  nano ingredients.txt
+  275  git status
+  276  git diff
+  277  nano instructions.txt
+  278  git status
+  279  git add instructions.txt ingredients.txt
+  280  git commit -m "Substituted onion for garlic"
+  281  git log
+  282  git log ingredients.txt
+  283  cd ~/Desktop/guacamole
+  284  git remote ad origin https://github.com/cutey132007/guacamole.git
+  285  git remote add origin https://github.com/cutey132007/guacamole.git
+  286  git push -u origin master
+  287  git push -u origin master
+  288  git status
+  289  nano instructions.txt
+  290  git status
+  291  git commit -m "Changed final mixing and serving instructions" instructions.txt
+  292  git push
+  293   git status
+  294  pwd
+  295  ..
+  296  cd ..
+  297  git clone https://github.com/skkoya/guacamole.git skkoya_guacamole_collaboration
+  298  ls
+  299  ls -F
+  300  ls -FG
+  301  cd ~/desktop/skkoya_guacamole_collaboration/
+  302  pwd
+  303  git log
+  304  git status
+  305  nano instructions.txt
+  306  git status
+  307  git log
+  308  git push
+  309  git status
+  310  git commit -m "added peppers" instructions.txt
+  311  git push
+  312  cd ~/Desktop/guacamole
+  313  pwd
+  314  git status
+  315  nano instructions.txt
+  316  git diff
+  317  git commit -m "added guacamole and avocado" instructions.txt
+  318  git status
+  319  git push
+  320  git pull
+  321  git status
+  322  nano instructions.txt
+  323  git status
+  324  git add instructions.txt
+  325  git commit -m "merged commit" instructions.txt
+  326  nano instructions
+  327  nano instructions.txt
+  328  git status
+  329  git add instructions.txt
+  330  git commit -m "merged commit" instructions.txt
+  331  git status
+  332  git commit 
+  333  git status
+  334  git push
+  335  git diff
+  336  history
+  337  history > history.txt
